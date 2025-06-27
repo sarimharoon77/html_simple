@@ -1,93 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sarim's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      background-image: url('https://www.solidbackgrounds.com/images/1680x1050/1680x1050-light-cyan-solid-color-background.jpg');
-      background-size: cover;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #c9d6ff, #e2e2e2);
       color: #333;
-      padding: 2rem;
     }
-    h1 {
+
+    header {
       text-align: center;
-      color: #003366;
-    }
-    ul {
-      line-height: 1.6;
-    }
-    section {
-      margin-bottom: 2rem;
-    }
-    footer {
-      background-color: #f9f9f9;
       padding: 2rem 1rem;
-      font-size: 0.9rem;
+      background-color: #003366;
+      color: white;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      color: #003366;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      line-height: 1.8;
+      padding-left: 1.2rem;
+    }
+
+    footer {
       text-align: center;
-      color: #666;
+      padding: 2rem 1rem;
+      background-color: #003366;
+      color: #fff;
     }
-    footer a {
-      color: #666;
-      text-decoration: none;
-      margin: 0 0.5rem;
-    }
-    footer a:hover {
-      text-decoration: underline;
-    }
-    .button-link {
-      background-color: #ddd;
-      padding: 0.5rem 1rem;
-      border: none;
-      border-radius: 5px;
+
+    .footer-links {
       margin-top: 1rem;
     }
-    .button-link a {
+
+    .button-link {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #ffcc00;
+      color: #003366;
       text-decoration: none;
-      color: #333;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .button-link:hover {
+      background-color: #e6b800;
+    }
+
+    .small-text {
+      margin-top: 1.5rem;
+      font-size: 0.8rem;
+      color: #bbb;
     }
   </style>
 </head>
 
 <body>
 
-  <h1>Sarim Haroon</h1>
+  <header>
+    <h1>Sarim Haroon</h1>
+    <p>Aspiring Web Developer | IGCSE CS Student</p>
+  </header>
 
   <section>
-    <p>I’m building my personal portfolio and learning how to write code. I owe much of my fun to my friends and Roots IVY.</p>
+    <p>Hey! I'm Sarim, a teenage coder exploring the world of web development. I'm currently studying IGCSE Computer Science and enjoy learning new technologies. Grateful for the fun and support from my friends and Roots IVY!</p>
   </section>
 
   <section>
     <h2>Previously</h2>
     <ul>
-      <li>Studied HTML, Advanced HTML, Intermediate Python and how internet works.</li>
-      <li>Represented my class in a history quiz at district level.</li>
-      <li>Previously studied in SLS.</li>
+      <li>Learned HTML, Advanced HTML, Intermediate Python, and Internet fundamentals</li>
+      <li>Represented my class in a history quiz at district level</li>
+      <li>Attended SLS School before Roots IVY</li>
     </ul>
   </section>
 
   <section>
     <h2>Recent Achievements</h2>
     <ul>
-      <li>Won a gold medal in IGCSE-2</li>
-      <li>Won a badminton tournament in 2023</li>
-      <li>Won a math competition</li>
+      <li>Gold Medal in IGCSE-2</li>
+      <li>Badminton Tournament Winner – 2023</li>
+      <li>Winner of a Math Competition</li>
     </ul>
   </section>
 
   <footer>
-    <div>
-      <p>Made with ❤️ by Sarim Haroon</p>
-      <p>
-        <a href="https://github.com/sarimharoon77/html_simple" target="_blank">GitHub</a>
-      </p>
-      <button class="button-link">
-        <a href="Aboutme.html" target="_blank">About Me</a>
-      </button>
-      <p style="margin-top: 1rem; color: #aaa; font-size: 0.8rem;">© 2025 Sarim Haroon. All rights reserved.</p>
+    <p>Made with ❤️ by Sarim Haroon</p>
+    <div class="footer-links">
+      <a href="https://github.com/sarimharoon77/html_simple" target="_blank" class="button-link">GitHub</a>
+      <a href="Aboutme.html" target="_blank" class="button-link">About Me</a>
     </div>
+    <p class="small-text">© 2025 Sarim Haroon. All rights reserved.</p>
   </footer>
 
 </body>
