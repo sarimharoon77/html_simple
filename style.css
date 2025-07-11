@@ -1,6 +1,16 @@
-html{
- background-color: brown;
+.hero-section {
+    background-color: #0A1F44;
+    padding: 40px 20px;
+    text-align: center;
 }
-h1{
- color: aqua;
+
+.a-class {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+}
+
+.another-class {
+    color: grey;
+    text-align: center;
 }
