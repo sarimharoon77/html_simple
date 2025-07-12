@@ -15,7 +15,29 @@
     text-align: center;
 }
 
-#img-a {
-    width: 5;
-    height: auto;
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
 }
+
+.small-image {
+  width: 220px;  /* increased size */
+  height: auto;
+  border-radius: 8px;
+}
+
+.Fullsuit-con {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.Full-suits {
+  width: 220px;  /* increased size */
+  height: auto;
+  border-radius: 8px;
+}
+
