@@ -1,0 +1,23 @@
+.sum-i {
+    color: grey;
+    text-align: center;
+}
+
+.summer- {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+ grid-row: 1fr 1fr 1fr 1fr; 
+}
+
+.summer-suits {
+  width: 220px;  /* increased size */
+  height: auto;
+  border-radius: 8px;
+}
+
+.price-con {
+    text-decoration: line-through;
+    color: silver;
+}
