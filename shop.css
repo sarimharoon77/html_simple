@@ -38,3 +38,16 @@
   height: auto;
   border-radius: 8px;
 }
+
+.Best-con {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.best-suits {
+  width: 220px;  /* increased size */
+  height: auto;
+  border-radius: 8px;
+}
