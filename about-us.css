@@ -8,3 +8,18 @@
     color: white;
     text-align: center;
 }
+
+.main-i {
+    text-align: center;
+}
+
+.about-m {
+    margin-top: 60;
+    text-align: center;
+}
+
+.about-p {
+    font-weight: 900;
+    margin-top: 60px;
+     line-height: 3;
+}
