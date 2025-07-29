@@ -1,32 +1,41 @@
 .a-class {
+    padding: 20px;
     background-color: #0A1F44;
-     padding: 40px 20px;
-    text-align: center;
 }
 
 .another-class {
     color: white;
+    font-size: 32px;
     text-align: center;
 }
 
-.main-i {
+.about-m h1 {
+    font-size: 28px;
+    margin-top: 30px;
     text-align: center;
 }
 
-.about-m {
-    margin-top: 60;
+.custom-img {
+    width: 250px;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.about-text {
+    
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.8;
+    font-family: 'Georgia', serif; /* luxury feel */
+    letter-spacing: 0.5px;
+}
+
+.end-c {
+    padding: 20px;
+    background-color: #0A1F44;
     text-align: center;
-}
-
-.about-p {
-    font-weight: 900;
-    margin-top: 60px;
-     line-height: 3;
-}
-
-.logo-img {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 120px; /* adjust size as needed */
+    color: white;
 }
