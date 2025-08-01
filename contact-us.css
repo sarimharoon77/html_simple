@@ -5,12 +5,27 @@
 
 .another-class {
     color: white;
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
 }
 
-.contact-m h1 {
-    font-size: 28px;
-    margin-top: 30px;
+.about-text {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.custom-img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.end-c {
+    background-color: #0A1F44;
+    color: white;
     text-align: center;
+    padding: 15px;
+    font-size: 14px;
 }
