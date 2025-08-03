@@ -1,0 +1,29 @@
+.a-class {
+    padding: 20px;
+    background-color: #0A1F44;
+    text-align: center;
+}
+
+.another-class {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+.custom-img {
+    width: 250px;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.about-text {
+    
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.8;
+    font-family: 'Georgia', serif; /* luxury feel */
+    letter-spacing: 0.5px;
+}
