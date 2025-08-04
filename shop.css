@@ -1,5 +1,10 @@
+.color-bg {
+  padding: 20px;
+  background-color: #1A2A80;
+}
+
 .shop-m {
-   color: grey;
+   color: white;
    text-align: center;
 }
 
