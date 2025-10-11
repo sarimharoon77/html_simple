@@ -1,12 +1,9 @@
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
-        }
-    ]
+prompt("enter the year")
+function isLeap(year) {
+    if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+        return "leap year.";
+    } else {
+        return "not leap year.";
+    }
+
 }
-alert("hi , welcome to my website")
