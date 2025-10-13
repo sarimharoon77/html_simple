@@ -7,3 +7,12 @@ function isLeap(year) {
     }
 
 }
+
+var = [] ;
+
+function is(name) ;
+
+name = "jack" , "jones" , "james"
+
+count = +1
+
