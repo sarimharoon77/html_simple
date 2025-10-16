@@ -16,3 +16,18 @@ name = "jack" , "jones" , "james"
 
 count = +1
 
+
+
+
+
+
+document.furstElementChild;
+<html lang="en" dir="ltr">
+ <head>-</head>
+ <body>-</body>
+</html>
+document.firstElementChild.firstElementChild;
+
+
+
+
